@@ -7,3 +7,14 @@ span {
   padding-bottom: 1px;
   font-weight: 600;
 }
+
+a {
+  margin: 10px;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}

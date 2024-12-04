@@ -3,8 +3,8 @@ import "./comps.css";
 
 function Thumbnail() {
   return (
-    <a href="/" className="w-[350px] m-5">
-      <div className="Thumbnail m-1 w-[350px]">
+    <a href="/" className=" m-5">
+      <div className="Thumbnail m-1 w-[550px]">
         <div>
           <img id="image" alt="cat" src={image1} className="w-[100%] mb-4" />
         </div>
