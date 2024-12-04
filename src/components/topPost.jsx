@@ -1,4 +1,5 @@
-import image1 from "../media/image.jpg";
+import React from "react";
+import image1 from "./data/media/image.jpg";
 import "./comps.css";
 
 function TopPost() {
@@ -28,5 +29,4 @@ function TopPost() {
     </a>
   );
 }
-
 export default TopPost;

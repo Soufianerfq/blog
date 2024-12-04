@@ -1,10 +1,11 @@
-import image1 from "../media/image.jpg";
+import image1 from "./data/media/image.jpg";
 import "./comps.css";
+import React from "react";
 
 function Recent() {
   return (
-    <a href="/" className=" m-5">
-      <div className="Thumbnail m-2 w-[700px] flex ">
+    <a href="/" className="">
+      <div className="Thumbnail m-1 w-[700px] flex ">
         <div className="w-fit">
           <img id="image" alt="cat" src={image1} className="w-fit mb-4" />
         </div>
@@ -31,5 +32,4 @@ function Recent() {
     </a>
   );
 }
-
 export default Recent;
