@@ -5,9 +5,12 @@ import React from "react";
 function Recent() {
   return (
     <a href="/" className="">
-      <div className="Thumbnail m-1 w-[700px] flex ">
+      <div
+        className="Thumbnail m-1 h-[auto] w-[700px] flex shadow-[0px_0px_19px_2px_rgba(51,_65,_85,_0.12)]
+ "
+      >
         <div className="w-fit">
-          <img id="image" alt="cat" src={image1} className="w-fit mb-4" />
+          <img id="image" alt="cat" src={image1} className="mb-auto mt-auto" />
         </div>
         <div className=" ml-5">
           <div className="inline-block text-[#363636]">

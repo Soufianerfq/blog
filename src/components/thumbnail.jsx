@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 
 function Thumbnail(props) {
   return (
-    <Link to={`/blog/${props.id}`} className=" m-5">
-      <div className="Thumbnail w-[550px]">
+    <Link to={`/blog/${props.id}`}>
+      <div className="Thumbnail w-[450px] shadow-[0px_0px_19px_2px_rgba(51,_65,_85,_0.12)] max-[1561px]:w-[200px]">
         <div>
           <img
             id="image"
             alt="cat"
             src={props.src}
-            className="w-[550px] h-[360px] mb-4"
+            className="max-[1561px]:w-[200px] max-[15610px]:h-[200px] w-[550px] h-[360px] mb-4"
           />
         </div>
         <div className="inline-block text-[#363636]">
