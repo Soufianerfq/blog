@@ -13,23 +13,23 @@ function Home() {
       <header>
         <Header />
       </header>
-      <main className="pr-auto pl-auto flex h-[auto] flex-col w-[100%] justify-center ">
-        <div className="h-[70vh] w-[85%] ml-auto mr-auto shadow-[0px_4px_8px_2px_rgba(234,_179,_8,_0.5)]">
+      <main className=" flex h-[auto] flex-col justify-center ">
+        <div className="h-[70vh] w-[95%] ml-auto mr-auto shadow-[0px_4px_8px_2px_rgba(234,_179,_8,_0.5)] max-lg:hidden">
           <Section />
         </div>
-        <div className="w-[85%] ml-auto mr-auto flex mb-6">
-          <div className="h-[65vh] inline-block mt-1 ">
+        <div className="w-[85%] ml-auto mr-auto flex mb-6 max-lg:w-[95%]">
+          <div className=" inline-block mt-1 ">
             <TopPost />
           </div>
-          <div className="inline-block mt-1 ">
+          <div className="inline-block mt-1 max-lg:hidden">
             <Recent />
             <Recent />
           </div>
         </div>
-        <div className="ml-auto mr-auto w-[85%]">
+        <div className="w-[100%]">
           <h1 className="ml-5 ">All Blogs</h1>
         </div>
-        <div className="flex flex-wrap w-[85%] h-[100vh] ml-auto mr-auto  ">
+        <div className=" w-[95%] justify-center ml-auto mr-auto flex flex-wrap ">
           {blogs.map((obj) => (
             <Thumbnail {...obj} />
           ))}

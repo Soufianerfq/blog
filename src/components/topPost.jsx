@@ -4,8 +4,8 @@ import "./comps.css";
 
 function TopPost() {
   return (
-    <a href="/" className="m-5">
-      <div className="Thumbnail m-1 w-[650px] ">
+    <a href="/" className="m-5 max-lg:w-[100%]">
+      <div className="Thumbnail m-1  ">
         <div>
           <img id="image" alt="cat" src={image1} className="w-[100%] mb-4" />
         </div>
