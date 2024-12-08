@@ -12,9 +12,11 @@ function Blog() {
 
   return (
     <div className="w-full flex flex-col">
-      <Header />
+      <header className="mb-3 flex shadow-[0px_0px_19px_2px_rgba(51,_65,_85,_0.12)]">
+        <Header />
+      </header>
       <div className="flex flex-row max-lg:w-[100%] ">
-        <div className="w-[30%] h-[100vh] ml-[30px] overflow-scroll max-lg:hidden">
+        <div className="w-[35%] h-[100vh] ml-[30px] overflow-scroll max-lg:hidden">
           {blogs.map((obj) => (
             <Thumbnail {...obj} />
           ))}
@@ -45,9 +47,9 @@ function Blog() {
           </div>
         </div>
       </div>
-      <div className="">
+      <footer className="h-[30vh] mt-5 shadow-[0px_0px_19px_2px_rgba(51,_65,_85,_0.12)]">
         <Footer />
-      </div>
+      </footer>
     </div>
   );
 }

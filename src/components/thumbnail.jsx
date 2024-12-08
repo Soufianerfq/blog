@@ -8,7 +8,7 @@ function Thumbnail(props) {
       to={`/blog/${props.id}`}
       className="w-[30%] max-lg:w-[45%] max-md:w-[95%]"
     >
-      <div className="Thumbnail shadow-[0px_0px_19px_2px_rgba(51,_65,_85,_0.12)] ">
+      <div className="Thumbnail shadow-[0px_0px_19px_2px_rgba(51,_65,_85,_0.12)] m-4 p-3 ">
         <div>
           <img
             id="image"

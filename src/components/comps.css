@@ -12,13 +12,47 @@ a {
   margin: 10px;
 }
 
-button {
+/* button {
   border: 1px solid black;
   border-radius: 20px;
   padding-right: 10px;
   padding-left: 10px;
-}
+} */
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+#header a:hover {
+  box-shadow: -1px 26px 40px -18px rgba(243, 251, 15, 0.75);
+  transform: translate(0px, -3px);
+  /* background-color: rgba(243, 251, 15, 0.75); */
+}
+#header a {
+  border-radius: 10px;
+  padding: 5px;
+  transition: transform 0.2s ease-in-out 0s;
+  cursor: pointer;
+  /* transition: background-color 0.3s ease-in-out 0s; */
+}
+
+.button:hover {
+  color: #cc333f;
+  transition: color 0.2s ease-in-out 0.1s;
+}
+
+.button {
+  font-family: system-ui, sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0 0.1em;
+}
+
+
+.Thumbnail{
+  transition: transform 0.2s ease-in-out 0s;
+
+}
+.Thumbnail:hover{
+  transform: scale(1.02) ;
 }
